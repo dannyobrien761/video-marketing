@@ -10,7 +10,7 @@
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     position: fixed;
     padding: 0 1rem;
     z-index: 1;
@@ -23,7 +23,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 #menu {
@@ -36,6 +36,7 @@ header a {
     margin-bottom: 1em;
 }
 
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -45,27 +46,30 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px#3a3a3a;
     display: none;
     top: 100%;
+
 }
 
 /* Nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
+    
 }
 
 #nav-toggle {
     display: none;
+
 }
 
 .nav-toggle-label {
     font-size: 2rem;
-
+    color: white;
 }
 
 /* Main content */
