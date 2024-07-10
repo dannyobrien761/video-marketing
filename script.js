@@ -1,10 +1,16 @@
 const loadText = document.querySelector('.loading-text');
 const bg = document.querySelector('.bg');
-const video = document.getElementById('myVideo');  // Select the video element
+const video = document.getElementById('hero-video');  // Select the video element
 
 let load = 0;
 
-video.play();  // Play the video
+// Ensure the video is muted for autoplay
+video.muted = true;
+
+ // Wait for the video to be ready before playing
+ video.addEventListener('canplay', () => {
+  video.play();
+});
 video.style.opacity = 0;
 
 
