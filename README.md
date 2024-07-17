@@ -51,5 +51,8 @@ The live link can be found here -
 
 ## Credits 
 ### Content 
+[background slider- Brad traversy 50projects50days](https://github.com/bradtraversy/50projects50days/tree/master/background-slider)
+
+the "background slider" which feature on my work.html page was originally taken from one of the 50projects in 50 days by brad traversy link above. I took the code from the above and customized it to include videos instead of pictures on the slider
 
 ### Media
